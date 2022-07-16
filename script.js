@@ -2,7 +2,7 @@ const bg = document.querySelector('.bg');
 const loadText = document.querySelector('.loading-text');
 
 let load = 0;
-let initialize = setInterval(blurring,90);
+let initialize = setInterval(blurring,100);
 
 function blurring() {
     load ++;
